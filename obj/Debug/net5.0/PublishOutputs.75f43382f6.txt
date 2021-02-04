@@ -1,0 +1,13 @@
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\Nhi.exe
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\appsettings.Development.json
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\appsettings.json
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\Nhi.dll
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\Nhi.deps.json
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\Nhi.runtimeconfig.json
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\Nhi.pdb
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\Microsoft.OpenApi.dll
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\PCSC.dll
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\PCSC.Iso7816.dll
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ar0660\workspace\Nhi\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

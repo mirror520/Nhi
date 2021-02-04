@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "k+blSh9/Xh4lVaf3JY9qNf/Us1iPVcKoX55pwNrK03vm/ky/CL7pIh+4oWiYd2yZ0feCQqmE5bMv8ZTN2tJXFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ar0660\\workspace\\Nhi\\Nhi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ar0660\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ar0660\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\ar0660\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ar0660\\.nuget\\packages\\pcsc\\5.0.0\\pcsc.5.0.0.nupkg.sha512",
+    "C:\\Users\\ar0660\\.nuget\\packages\\pcsc.iso7816\\5.0.0\\pcsc.iso7816.5.0.0.nupkg.sha512",
+    "C:\\Users\\ar0660\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\ar0660\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\ar0660\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\ar0660\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\ar0660\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
