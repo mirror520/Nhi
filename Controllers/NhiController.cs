@@ -35,21 +35,21 @@ namespace Nhi.Controllers
         {
             Result<User> result = null;
 
-            var readerCtx = PCSC.ContextFactory.Instance.Establish(PCSC.SCardScope.User);
-            var readerName = readerCtx.GetReaders().FirstOrDefault();
-            if (string.IsNullOrEmpty(readerName))
-            {
-                result = new Result<User>()
-                {
-                    Status = "failure",
-                    Info = new string[]{"找不到讀卡機"},
-                    Time = DateTime.Now
-                };
-
-                return UnprocessableEntity(result);
-            }
-
             try {
+                var readerCtx = PCSC.ContextFactory.Instance.Establish(PCSC.SCardScope.User);
+                var readerName = readerCtx.GetReaders().FirstOrDefault();
+                if (string.IsNullOrEmpty(readerName))
+                {
+                    result = new Result<User>()
+                    {
+                        Status = "failure",
+                        Info = new string[]{"找不到讀卡機"},
+                        Time = DateTime.Now
+                    };
+
+                    return UnprocessableEntity(result);
+                }
+
                 var reader = new PCSC.Iso7816.IsoReader(
                     context: readerCtx, 
                     readerName: readerName, 
@@ -118,6 +118,15 @@ namespace Nhi.Controllers
                 {
                     Status = "failure",
                     Info = new string[]{"無法預期錯誤，請拔除重試"},
+                    Time = DateTime.Now
+                };
+
+                return UnprocessableEntity(result);
+            } catch (PCSC.Exceptions.NoServiceException) {
+                result = new Result<User>()
+                {
+                    Status = "failure",
+                    Info = new string[]{"無法使用讀卡機"},
                     Time = DateTime.Now
                 };
 
