@@ -13,7 +13,7 @@ namespace Nhi
             var BIG5 = System.Text.Encoding.GetEncoding("big5");
 
             CardNumber  = UTF8.GetString(adpuData.Take(12).ToArray());
-            Name        = BIG5.GetString(adpuData.Skip(12).Take(20).ToArray()).TrimEnd('\0');
+            Name        = BIG5.GetString(adpuData.Skip(12).Take(20).ToArray()).TrimEnd('\0').TrimEnd();
             IdCard      = UTF8.GetString(adpuData.Skip(32).Take(10).ToArray());
             Birthday    = UTF8.GetString(adpuData.Skip(42).Take(7).ToArray());
             Gender      = UTF8.GetString(adpuData.Skip(49).Take(1).ToArray()) == "M" ? "Male" : "Female";
